@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumora Interiors</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+html{scroll-behavior:smooth}
+body{background:#fff;color:#222}
+a{text-decoration:none;color:inherit}
+header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);box-shadow:0 4px 15px rgba(0,0,0,.08);z-index:999}
+.nav{max-width:1200px;height:85px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
+.logo{font-size:32px;font-weight:700;color:#c9a14a}
+ul{display:flex;gap:30px;list-style:none}
+ul a{font-weight:500}
+ul a:hover{color:#c9a14a}
+.btn{padding:14px 28px;background:#c9a14a;color:#fff;border-radius:40px}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80') center/cover;display:flex;align-items:center}
+.wrap{max-width:1200px;margin:auto;padding:0 20px}
+.badge{display:inline-block;background:#c9a14a;color:#fff;padding:8px 18px;border-radius:30px;margin-bottom:20px}
+.hero h1{font-size:68px;color:#fff;line-height:1.1}
+.hero p{color:#eee;font-size:20px;max-width:650px;margin:25px 0 40px}
+.buttons{display:flex;gap:18px}
+.outline{border:2px solid #fff;padding:14px 28px;border-radius:40px;color:#fff}
+.about{padding:110px 20px;background:#fafafa}
+.container{max-width:1200px;margin:auto}
+.section-title{text-align:center;color:#c9a14a;font-size:18px;font-weight:600}
+.section-heading{text-align:center;font-size:42px;margin:15px 0 60px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.grid img{width:100%;border-radius:20px}
+.grid h3{font-size:34px;margin-bottom:20px}
+.grid p{line-height:1.8;color:#555;margin-bottom:25px}
+.features li{margin:14px 0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:70px}
+.card{background:#fff;padding:35px;border-radius:18px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+.card h2{font-size:40px;color:#c9a14a}
+.card p{margin-top:10px;color:#555}
+@media(max-width:900px){
+ul,.btn{display:none}
+.hero h1{font-size:44px}
+.grid{grid-template-columns:1fr}
+.stats{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<header><nav class="nav">
+<div class="logo">Lumora</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<a class="btn" href="contact.html">Book Consultation</a>
+</nav></header>
+
+<section class="hero">
+<div class="wrap">
+<span class="badge">Luxury Interior Design</span>
+<h1>Designing Spaces<br>That Inspire.</h1>
+<p>We create elegant homes and commercial interiors with timeless aesthetics, premium materials and thoughtful functionality.</p>
+<div class="buttons">
+<a class="btn" href="services.html">Explore Services</a>
+<a class="outline" href="portfolio.html">View Portfolio</a>
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="container">
+<p class="section-title">ABOUT LUMORA</p>
+<h2 class="section-heading">Luxury Meets Functionality</h2>
+<div class="grid">
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80">
+<div>
+<h3>Creating Beautiful Spaces Since 1999</h3>
+<p>Our team designs premium interiors that combine elegance, comfort and functionality for modern lifestyles.</p>
+<ul class="features">
+<li>✔ Residential Interiors</li>
+<li>✔ Commercial Spaces</li>
+<li>✔ Custom Furniture</li>
+<li>✔ 3D Design Visualization</li>
+</ul>
+</div>
+</div>
+
+<div class="stats">
+<div class="card"><h2>25+</h2><p>Years Experience</p></div>
+<div class="card"><h2>500+</h2><p>Projects</p></div>
+<div class="card"><h2>150+</h2><p>Design Experts</p></div>
+<div class="card"><h2>98%</h2><p>Happy Clients</p></div>
+</div>
+</div>
+</section>
+
+</body>
+</html>
