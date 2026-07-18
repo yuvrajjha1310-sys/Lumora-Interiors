@@ -931,6 +931,26 @@ footer a:hover{
     color:#C8A45D;
 }
 
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
+
 @media (max-width:1024px){
 
 nav{
@@ -1338,6 +1358,26 @@ nav{
 ::selection{
     background:#C8A45D;
     color:#fff;
+}
+
+@media (max-width:992px){
+
+    .calculator-card{
+        padding:30px;
+    }
+
+    .calculator-grid{
+        grid-template-columns:1fr;
+    }
+
+    .result-grid{
+        grid-template-columns:1fr;
+    }
+
+    .addons{
+        grid-template-columns:1fr;
+    }
+
 }
 
 </style>
