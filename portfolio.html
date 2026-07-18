@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Lumora Interiors</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f6f2;
+            color: #222;
+        }
+
+        header {
+            padding: 25px 8%;
+            background: #222;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        .hero {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .portfolio {
+            padding: 40px 8%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .project {
+            background: white;
+            padding: 15px;
+        }
+
+        .project img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .project h2 {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 700px) {
+            .portfolio {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </header>
+
+    <section class="hero">
+        <h1>Our Portfolio</h1>
+        <p>Explore our latest interior design projects.</p>
+    </section>
+
+    <section class="portfolio">
+
+        <div class="project">
+            <img src="images/portfolio10.jpg" alt="Interior Design Project 1">
+            <h2>Luxury Living Room</h2>
+            <p>Elegant and modern residential interior design.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/portfolio20.jpg" alt="Interior Design Project 2">
+            <h2>Modern Bedroom</h2>
+            <p>A calm and sophisticated bedroom interior.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/portfolio30.jpg" alt="Interior Design Project 3">
+            <h2>Contemporary Office</h2>
+            <p>Functional and stylish office interiors.</p>
+        </div>
+
+        <div class="project">
+            <img src="images/portfolio40.jpg" alt="Interior Design Project 4">
+            <h2>Premium Interior</h2>
+            <p>Beautiful spaces designed with attention to detail.</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
